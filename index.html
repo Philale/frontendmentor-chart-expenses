@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-cream">
+
+  <div class="column full-center full-fill">
+    <div class="container bg-red row split border-20">
+      <div class="column txt-white no-margin-children">
+        <p class="font-size-1">My balance</p>
+        <h2 class="hover-txt-brown">$921.48</h2>
+      </div>
+      <img src="images/logo.svg">
+    </div>
+   
+    <div class="container bg-white border-20">
+      <h2 class="no-margin">Spending - Last 7 days</h2>
+      <div id="chart">
+      </div>
+      <hr>
+      <p class="no-margin font-size-1">Total this month</p>
+      <diV class="row split">
+        <h1 class="no-margin hover-txt-cyan">$478.33</h1>
+        <div class="column no-margin-children font-size-1">
+          <strong class="hover-txt-cyan">+2.4%</strong>
+          <p>from last month</p>
+        </div>
+      </diV>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Philale">philale</a>.
+  </div>  
+
+  <!-- REACT LINKS -->
+  <script type="application/javascript" src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+  <script type="application/javascript" src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+  <script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  
+  <!-- REACT SCRIPT -->
+  <script type="text/babel" src="chart.jsx"></script>
+</body>
+</html>
