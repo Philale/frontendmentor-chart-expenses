@@ -123,6 +123,10 @@ body > *{
     flex-basis: 10%;
 }
 
+.chart-entry:hover{
+    cursor: pointer;
+}
+
 .chart-entry div{
     border-radius: 3px;
     transition: margin-bottom 0.5s;
